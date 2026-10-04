@@ -62,6 +62,7 @@ browser or JS execution is needed.
                 "currency": "IRT",
                 "note": null        // qualifier, e.g. "به‌ازای هر ابرک"
               },
+              "price_reduced": false, // page shows a «کاهش‌یافته» badge
               "raw_cells": ["Basic", "۲۸۰,۰۰۰ تومان"]
             }
           ]
@@ -87,6 +88,11 @@ browser or JS execution is needed.
   The page renders a tier list as one labelled row plus unlabelled rows; the
   scraper forward-fills `item` and marks those rows
   `"continues_previous_item": true`.
+- **`price_reduced`** is `true` for the 18 rows the page marks with a
+  «کاهش‌یافته» (price-reduced) tooltip badge. That badge is rendered as an
+  extra element *outside* the normal cells, so a naive scrape shifts the whole
+  row by one column and reads the tier name as the price — the scraper takes
+  `div` cells only to stay aligned.
 - **`raw_cells`** keeps every cell verbatim, so nothing is lost if the
   normalized fields don't fit your use case.
 - **`columns`** varies per table (2–4 columns); read `price_basis` for the unit

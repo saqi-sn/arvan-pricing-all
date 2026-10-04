@@ -15,6 +15,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import re
 import sys
@@ -126,13 +127,46 @@ def element_children(tag):
     return [c for c in tag.children if getattr(c, "name", None)]
 
 
+def cell_children(row):
+    """The actual columns of a row.
+
+    Rows whose price dropped get a «کاهش‌یافته» tooltip <span> prepended as a
+    direct child, outside the normal <div> cells. Taking divs only keeps cells
+    aligned with the header instead of shifting every column by one.
+    """
+    return [c for c in element_children(row) if c.name == "div"]
+
+
+def has_reduction_badge(row) -> bool:
+    return any(
+        "کاهش‌یافته" in t.get_text()
+        for t in row.find_all("span")
+        if "cursor-pointer" in " ".join(t.get("class") or [])
+    )
+
+
+def cell_text(cell) -> str:
+    """Text of a cell with tooltip triggers removed.
+
+    The price cell of a reduced row repeats the badge inside itself (a
+    mobile-only variant), which would otherwise land in the price string.
+    """
+    clone = copy.copy(cell)
+    for trigger in clone.find_all("span"):
+        # extract(), not decompose(): a decomposed tag's nested spans are left
+        # with attrs=None and blow up later in this same loop.
+        if "cursor-pointer" in " ".join(trigger.get("class") or []):
+            trigger.extract()
+    return norm(clone.get_text())
+
+
 def parse_table(card, section) -> dict | None:
     """A card is a header row followed by data rows; all rows are flex divs."""
-    rows = [r for r in element_children(card) if element_children(r)]
+    rows = [r for r in element_children(card) if cell_children(r)]
     if not rows:
         return None
 
-    columns = [norm(c.get_text()) for c in element_children(rows[0])]
+    columns = [cell_text(c) for c in cell_children(rows[0])]
     if not columns:
         return None
 
@@ -144,7 +178,7 @@ def parse_table(card, section) -> dict | None:
     out_rows = []
     last_item = None
     for row in rows[1:]:
-        cells = [norm(c.get_text()) for c in element_children(row)]
+        cells = [cell_text(c) for c in cell_children(row)]
         if not cells:
             continue
 
@@ -164,6 +198,8 @@ def parse_table(card, section) -> dict | None:
             tier = cells[tier_idx]
             entry["tier"] = tier if tier and tier != "-" else None
         entry["price"] = parse_price(cells[price_idx] if price_idx < len(cells) else "")
+        # The page flags rows whose price has come down with a tooltip badge.
+        entry["price_reduced"] = has_reduction_badge(row)
         entry["raw_cells"] = cells
         out_rows.append(entry)
 
