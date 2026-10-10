@@ -8,7 +8,7 @@ region toggle.
 - [`arvan-pricing-all.json`](arvan-pricing-all.json) — the data
 - [`scrape.py`](scrape.py) — the scraper that produces it
 
-**11 products · 52 tables · 242 price rows.** Amounts are Iranian Toman (`IRT`).
+**11 products · 52 tables · 244 price rows.** Amounts are Iranian Toman (`IRT`).
 
 > Unofficial snapshot, not affiliated with ArvanCloud. Prices change — re-run
 > the scraper rather than trusting the committed timestamp.
@@ -23,8 +23,16 @@ python scrape.py -o custom.json
 ```
 
 The page is server-rendered and uses Alpine.js (`x-show="region === 'europe'"`)
-to hide the Europe tables, so **both regions ship in the static HTML** and no
-browser or JS execution is needed.
+to hide the Europe tables, so **both regions ship in the static HTML** — no JS
+execution is needed to read them.
+
+> **Heads-up:** as of 2026-10-10 the site answers plain HTTP clients (curl,
+> urllib, requests) with a JS interstitial from its own CDN instead of the page,
+> so the no-argument `python scrape.py` form returns
+> `No pricing sections found`. Until that changes, save the page from a real
+> browser and parse the saved copy with `--html`. The scraper exits without
+> writing when it finds no pricing sections, so a blocked fetch can't clobber a
+> good `arvan-pricing-all.json`.
 
 ## Structure
 
@@ -53,6 +61,7 @@ browser or JS execution is needed.
           "rows": [
             {
               "item": "Basic",
+              "item_note": null,    // tooltip on the item, when the page has one
               "unit": null,         // present when the table has a «واحد» column
               "tier": null,         // present when it has a «پلکان استفاده» column
               "price": {
@@ -81,18 +90,22 @@ browser or JS execution is needed.
 - **`price.amount`** is the number with Persian digits and thousands separators
   normalized; `0` together with `is_free: true` for «رایگان»; `null` when the
   cell holds no number (e.g. `-`).
-- **`price.note`** captures text left over next to the number — usually a scope
-  qualifier like «به‌ازای هر حساب کاربری» (per account) or «به‌ازای هر ابرک»
-  (per instance) that is easy to miss when reading the page.
+- **`price.note`** is the hover tooltip attached to the price — a scope
+  qualifier like «به‌ازای هر حساب کاربری» (per account), «به‌ازای هر ابرک»
+  (per instance) or «تا ۷ روز» (up to 7 days), easy to miss when reading the
+  page. **`item_note`** is the same thing for a tooltip on the row's name.
+  Tooltip text is kept out of `item` and `price.raw` rather than concatenated
+  into them.
 - **`tier`** is the usage step («تا ۲۵۰ گیگابایت», «بیش از ۱۰۰ ترابایت»).
   The page renders a tier list as one labelled row plus unlabelled rows; the
   scraper forward-fills `item` and marks those rows
   `"continues_previous_item": true`.
-- **`price_reduced`** is `true` for the 18 rows the page marks with a
-  «کاهش‌یافته» (price-reduced) tooltip badge. That badge is rendered as an
-  extra element *outside* the normal cells, so a naive scrape shifts the whole
-  row by one column and reads the tier name as the price — the scraper takes
-  `div` cells only to stay aligned.
+- **`price_reduced`** is `true` for rows the page marks with a «کاهش‌یافته»
+  (price-reduced) badge. That badge is rendered as an extra element *outside*
+  the normal cells, so a naive scrape shifts the whole row by one column and
+  reads the tier name as the price — the scraper takes `div` cells only to stay
+  aligned. It is `false` for every row in the current snapshot: the 2026-10
+  revision raised prices rather than cutting them.
 - **`raw_cells`** keeps every cell verbatim, so nothing is lost if the
   normalized fields don't fit your use case.
 - **`columns`** varies per table (2–4 columns); read `price_basis` for the unit
@@ -117,7 +130,8 @@ browser or JS execution is needed.
 Within Cloud Server, the GPU and dedicated-server tables sit outside the
 toggle and carry `region: null`. Europe differs from Iran on vCPU, RAM,
 block/file storage, IPv4 — and on traffic, where Europe bills send+receive
-together with a different free allowance.
+together with a different free allowance. The tier lists differ too: Iran
+offers a `Premium Plus` vCPU/RAM tier that Europe does not.
 
 ## Example
 

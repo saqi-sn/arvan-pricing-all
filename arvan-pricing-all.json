@@ -2,7 +2,7 @@
   "source": {
     "url": "https://www.arvancloud.ir/fa/pricing/all",
     "page_title": "‏قیمت همه محصولات | آروان‌کلاد‏",
-    "scraped_at": "2026-10-04T13:34:06+00:00"
+    "scraped_at": "2026-10-10T12:48:42+00:00"
   },
   "currency": {
     "code": "IRT",
@@ -19,12 +19,17 @@
   },
   "price_versions": [
     {
-      "label_fa": "قیمت همه محصولات",
+      "label_fa": "قیمت فعلی",
       "url": "https://www.arvancloud.ir/fa/pricing/all",
       "is_current": true
     },
     {
-      "label_fa": "۳۰ خرداد ۱۴۰۵",
+      "label_fa": "۱ مهر ۱۴۰۵",
+      "url": "https://www.arvancloud.ir/fa/pricing/all?version=1405-07-01",
+      "is_current": false
+    },
+    {
+      "label_fa": "۱ تیر ۱۴۰۵",
       "url": "https://www.arvancloud.ir/fa/pricing/all?version=1405-03-30",
       "is_current": false
     }
@@ -67,19 +72,19 @@
             {
               "item": "دامنه پایه",
               "continues_previous_item": true,
-              "tier": "۱۰۰ تا ۱,۰۰۰ دامنه",
+              "tier": "۱۰۰ تا ۹۹۹ دامنه",
               "price": {
-                "raw": "۳۰٬۰۰۰٬۰۰۰ تومان",
+                "raw": "۳۶٬۰۰۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 30000000,
+                "amount": 36000000,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "",
-                "۱۰۰ تا ۱,۰۰۰ دامنه",
-                "۳۰٬۰۰۰٬۰۰۰ تومان"
+                "۱۰۰ تا ۹۹۹ دامنه",
+                "۳۶٬۰۰۰٬۰۰۰ تومان"
               ]
             },
             {
@@ -87,26 +92,26 @@
               "continues_previous_item": true,
               "tier": "۱,۰۰۰ تا ۵,۰۰۰ دامنه",
               "price": {
-                "raw": "۷۵٬۰۰۰٬۰۰۰ تومان",
+                "raw": "۹۰٬۰۰۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 75000000,
+                "amount": 90000000,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "",
                 "۱,۰۰۰ تا ۵,۰۰۰ دامنه",
-                "۷۵٬۰۰۰٬۰۰۰ تومان"
+                "۹۰٬۰۰۰٬۰۰۰ تومان"
               ]
             },
             {
               "item": "دامنه رشد",
               "tier": null,
               "price": {
-                "raw": "۳٬۰۰۰٬۰۰۰ تومان",
+                "raw": "۳٬۶۰۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 3000000,
+                "amount": 3600000,
                 "currency": "IRT",
                 "note": null
               },
@@ -114,16 +119,16 @@
               "raw_cells": [
                 "دامنه رشد",
                 "-",
-                "۳٬۰۰۰٬۰۰۰ تومان"
+                "۳٬۶۰۰٬۰۰۰ تومان"
               ]
             },
             {
               "item": "دامنه حرفه‌ای",
               "tier": null,
               "price": {
-                "raw": "۳۰٬۰۰۰٬۰۰۰ تومان",
+                "raw": "۳۶٬۰۰۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 30000000,
+                "amount": 36000000,
                 "currency": "IRT",
                 "note": null
               },
@@ -131,16 +136,16 @@
               "raw_cells": [
                 "دامنه حرفه‌ای",
                 "-",
-                "۳۰٬۰۰۰٬۰۰۰ تومان"
+                "۳۶٬۰۰۰٬۰۰۰ تومان"
               ]
             },
             {
               "item": "دامنه سازمانی",
               "tier": null,
               "price": {
-                "raw": "۱۲۰٬۰۰۰٬۰۰۰ تومان",
+                "raw": "۱۴۴٬۰۰۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 120000000,
+                "amount": 144000000,
                 "currency": "IRT",
                 "note": null
               },
@@ -148,7 +153,7 @@
               "raw_cells": [
                 "دامنه سازمانی",
                 "-",
-                "۱۲۰٬۰۰۰٬۰۰۰ تومان"
+                "۱۴۴٬۰۰۰٬۰۰۰ تومان"
               ]
             }
           ]
@@ -167,9 +172,9 @@
               "item": "IP اختصاصی",
               "unit": "هر IP",
               "price": {
-                "raw": "۲۴,۰۰۰,۰۰۰ تومان",
+                "raw": "۲۷٬۰۰۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 24000000,
+                "amount": 27000000,
                 "currency": "IRT",
                 "note": null
               },
@@ -177,7 +182,7 @@
               "raw_cells": [
                 "IP اختصاصی",
                 "هر IP",
-                "۲۴,۰۰۰,۰۰۰ تومان"
+                "۲۷٬۰۰۰٬۰۰۰ تومان"
               ]
             },
             {
@@ -252,9 +257,9 @@
               "item": "قانون صفحه مازاد",
               "unit": "هر قانون",
               "price": {
-                "raw": "۴۵٬۰۰۰ تومان",
+                "raw": "۵۴٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 45000,
+                "amount": 54000,
                 "currency": "IRT",
                 "note": null
               },
@@ -262,7 +267,7 @@
               "raw_cells": [
                 "قانون صفحه مازاد",
                 "هر قانون",
-                "۴۵٬۰۰۰ تومان"
+                "۵۴٬۰۰۰ تومان"
               ]
             }
           ]
@@ -299,9 +304,9 @@
               "continues_previous_item": true,
               "tier": "۱ تا ۵ میلیارد درخواست",
               "price": {
-                "raw": "۹۶ تومان",
+                "raw": "۱۰۸ تومان",
                 "is_free": false,
-                "amount": 96,
+                "amount": 108,
                 "currency": "IRT",
                 "note": null
               },
@@ -309,7 +314,7 @@
               "raw_cells": [
                 "",
                 "۱ تا ۵ میلیارد درخواست",
-                "۹۶ تومان"
+                "۱۰۸ تومان"
               ]
             },
             {
@@ -317,9 +322,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۵ میلیارد درخواست",
               "price": {
-                "raw": "۴۸ تومان",
+                "raw": "۵۴ تومان",
                 "is_free": false,
-                "amount": 48,
+                "amount": 54,
                 "currency": "IRT",
                 "note": null
               },
@@ -327,7 +332,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۵ میلیارد درخواست",
-                "۴۸ تومان"
+                "۵۴ تومان"
               ]
             },
             {
@@ -352,9 +357,9 @@
               "continues_previous_item": true,
               "tier": "۱ تا ۵ میلیارد درخواست",
               "price": {
-                "raw": "۱۴۴ تومان",
+                "raw": "۱۶۲ تومان",
                 "is_free": false,
-                "amount": 144,
+                "amount": 162,
                 "currency": "IRT",
                 "note": null
               },
@@ -362,7 +367,7 @@
               "raw_cells": [
                 "",
                 "۱ تا ۵ میلیارد درخواست",
-                "۱۴۴ تومان"
+                "۱۶۲ تومان"
               ]
             },
             {
@@ -370,9 +375,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۵ میلیارد درخواست",
               "price": {
-                "raw": "۹۶ تومان",
+                "raw": "۱۰۵ تومان",
                 "is_free": false,
-                "amount": 96,
+                "amount": 105,
                 "currency": "IRT",
                 "note": null
               },
@@ -380,7 +385,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۵ میلیارد درخواست",
-                "۹۶ تومان"
+                "۱۰۵ تومان"
               ]
             }
           ]
@@ -417,9 +422,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۵ میلیون درخواست",
               "price": {
-                "raw": "۹۶۰ تومان",
+                "raw": "۱٬۰۸۰ تومان",
                 "is_free": false,
-                "amount": 960,
+                "amount": 1080,
                 "currency": "IRT",
                 "note": null
               },
@@ -427,7 +432,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۵ میلیون درخواست",
-                "۹۶۰ تومان"
+                "۱٬۰۸۰ تومان"
               ]
             },
             {
@@ -452,9 +457,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۱۵ میلیون درخواست",
               "price": {
-                "raw": "۹۶۰ تومان",
+                "raw": "۱٬۰۸۰ تومان",
                 "is_free": false,
-                "amount": 960,
+                "amount": 1080,
                 "currency": "IRT",
                 "note": null
               },
@@ -462,7 +467,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۱۵ میلیون درخواست",
-                "۹۶۰ تومان"
+                "۱٬۰۸۰ تومان"
               ]
             },
             {
@@ -487,9 +492,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۵۰ میلیون درخواست",
               "price": {
-                "raw": "۹۶۰ تومان",
+                "raw": "۱٬۰۸۰ تومان",
                 "is_free": false,
-                "amount": 960,
+                "amount": 1080,
                 "currency": "IRT",
                 "note": null
               },
@@ -497,7 +502,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۵۰ میلیون درخواست",
-                "۹۶۰ تومان"
+                "۱٬۰۸۰ تومان"
               ]
             },
             {
@@ -649,9 +654,9 @@
               "item": "اپلیکیشن پروکسی لایه ۴",
               "unit": "هر اپلیکیشن (ماهانه)",
               "price": {
-                "raw": "۲,۰۰۰,۰۰۰ تومان",
+                "raw": "۲٬۲۵۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 2000000,
+                "amount": 2250000,
                 "currency": "IRT",
                 "note": null
               },
@@ -659,16 +664,16 @@
               "raw_cells": [
                 "اپلیکیشن پروکسی لایه ۴",
                 "هر اپلیکیشن (ماهانه)",
-                "۲,۰۰۰,۰۰۰ تومان"
+                "۲٬۲۵۰٬۰۰۰ تومان"
               ]
             },
             {
               "item": "IP اختصاصی پروکسی لایه ۴",
               "unit": "هر IP (ماهانه)",
               "price": {
-                "raw": "۲۴٬۰۰۰٬۰۰۰ تومان",
+                "raw": "۲۷٬۰۰۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 24000000,
+                "amount": 27000000,
                 "currency": "IRT",
                 "note": null
               },
@@ -676,7 +681,7 @@
               "raw_cells": [
                 "IP اختصاصی پروکسی لایه ۴",
                 "هر IP (ماهانه)",
-                "۲۴٬۰۰۰٬۰۰۰ تومان"
+                "۲۷٬۰۰۰٬۰۰۰ تومان"
               ]
             }
           ]
@@ -712,9 +717,9 @@
               "item": "گواهینامه یک‌ساله Certum",
               "unit": "هر عدد",
               "price": {
-                "raw": "۲٬۰۰۰٬۰۰۰ تومان",
+                "raw": "۲٬۸۹۹٬۸۰۰ تومان",
                 "is_free": false,
-                "amount": 2000000,
+                "amount": 2899800,
                 "currency": "IRT",
                 "note": null
               },
@@ -722,16 +727,16 @@
               "raw_cells": [
                 "گواهینامه یک‌ساله Certum",
                 "هر عدد",
-                "۲٬۰۰۰٬۰۰۰ تومان"
+                "۲٬۸۹۹٬۸۰۰ تومان"
               ]
             },
             {
               "item": "گواهینامه یک‌ساله Certum Wildcard",
               "unit": "هر عدد",
               "price": {
-                "raw": "۹٬۰۰۰٬۰۰۰ تومان",
+                "raw": "۱۳٬۸۹۹٬۶۰۰ تومان",
                 "is_free": false,
-                "amount": 9000000,
+                "amount": 13899600,
                 "currency": "IRT",
                 "note": null
               },
@@ -739,16 +744,16 @@
               "raw_cells": [
                 "گواهینامه یک‌ساله Certum Wildcard",
                 "هر عدد",
-                "۹٬۰۰۰٬۰۰۰ تومان"
+                "۱۳٬۸۹۹٬۶۰۰ تومان"
               ]
             },
             {
               "item": "گواهینامه یک‌ساله Certum Wildcard Multi",
               "unit": "هر دامنه",
               "price": {
-                "raw": "۷٬۶۰۰٬۰۰۰ تومان",
+                "raw": "۱۲٬۹۰۰٬۶۰۰ تومان",
                 "is_free": false,
-                "amount": 7600000,
+                "amount": 12900600,
                 "currency": "IRT",
                 "note": null
               },
@@ -756,7 +761,7 @@
               "raw_cells": [
                 "گواهینامه یک‌ساله Certum Wildcard Multi",
                 "هر دامنه",
-                "۷٬۶۰۰٬۰۰۰ تومان"
+                "۱۲٬۹۰۰٬۶۰۰ تومان"
               ]
             }
           ]
@@ -772,30 +777,31 @@
           ],
           "rows": [
             {
-              "item": "ارسال لاگ تعداد لاگ‌های ایجادشده",
+              "item": "ارسال لاگ",
               "tier": "تا ۱۰۰ میلیون لاگ",
+              "item_note": "تعداد لاگ‌های ایجادشده",
               "price": {
-                "raw": "۹۶۰ تومان",
+                "raw": "۱٬۰۸۰ تومان",
                 "is_free": false,
-                "amount": 960,
+                "amount": 1080,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
-                "ارسال لاگ تعداد لاگ‌های ایجادشده",
+                "ارسال لاگ",
                 "تا ۱۰۰ میلیون لاگ",
-                "۹۶۰ تومان"
+                "۱٬۰۸۰ تومان"
               ]
             },
             {
-              "item": "ارسال لاگ تعداد لاگ‌های ایجادشده",
+              "item": "ارسال لاگ",
               "continues_previous_item": true,
               "tier": "۱۰۰ میلیون تا ۱ میلیارد لاگ",
               "price": {
-                "raw": "۴۸۰ تومان",
+                "raw": "۵۴۰ تومان",
                 "is_free": false,
-                "amount": 480,
+                "amount": 540,
                 "currency": "IRT",
                 "note": null
               },
@@ -803,17 +809,17 @@
               "raw_cells": [
                 "",
                 "۱۰۰ میلیون تا ۱ میلیارد لاگ",
-                "۴۸۰ تومان"
+                "۵۴۰ تومان"
               ]
             },
             {
-              "item": "ارسال لاگ تعداد لاگ‌های ایجادشده",
+              "item": "ارسال لاگ",
               "continues_previous_item": true,
               "tier": "بیش از ۱ میلیارد لاگ",
               "price": {
-                "raw": "۲۴۰ تومان",
+                "raw": "۲۷۰ تومان",
                 "is_free": false,
-                "amount": 240,
+                "amount": 270,
                 "currency": "IRT",
                 "note": null
               },
@@ -821,34 +827,35 @@
               "raw_cells": [
                 "",
                 "بیش از ۱ میلیارد لاگ",
-                "۲۴۰ تومان"
+                "۲۷۰ تومان"
               ]
             },
             {
-              "item": "لاگ رخدادها تعداد لاگ‌‌های ارسالی",
+              "item": "لاگ رخدادها",
               "tier": "تا ۱۰۰ میلیون لاگ",
+              "item_note": "تعداد لاگ‌‌های ارسالی",
               "price": {
-                "raw": "۱,۹۲۰ تومان",
+                "raw": "۲٬۱۶۰ تومان",
                 "is_free": false,
-                "amount": 1920,
+                "amount": 2160,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
-                "لاگ رخدادها تعداد لاگ‌‌های ارسالی",
+                "لاگ رخدادها",
                 "تا ۱۰۰ میلیون لاگ",
-                "۱,۹۲۰ تومان"
+                "۲٬۱۶۰ تومان"
               ]
             },
             {
-              "item": "لاگ رخدادها تعداد لاگ‌‌های ارسالی",
+              "item": "لاگ رخدادها",
               "continues_previous_item": true,
               "tier": "۱۰۰ میلیون تا ۱ میلیارد لاگ",
               "price": {
-                "raw": "۹۶۰ تومان",
+                "raw": "۱٬۰۸۰ تومان",
                 "is_free": false,
-                "amount": 960,
+                "amount": 1080,
                 "currency": "IRT",
                 "note": null
               },
@@ -856,17 +863,17 @@
               "raw_cells": [
                 "",
                 "۱۰۰ میلیون تا ۱ میلیارد لاگ",
-                "۹۶۰ تومان"
+                "۱٬۰۸۰ تومان"
               ]
             },
             {
-              "item": "لاگ رخدادها تعداد لاگ‌‌های ارسالی",
+              "item": "لاگ رخدادها",
               "continues_previous_item": true,
               "tier": "بیش از ۱ میلیارد لاگ",
               "price": {
-                "raw": "۳۲۰ تومان",
+                "raw": "۵۴۰ تومان",
                 "is_free": false,
-                "amount": 320,
+                "amount": 540,
                 "currency": "IRT",
                 "note": null
               },
@@ -874,7 +881,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۱ میلیارد لاگ",
-                "۳۲۰ تومان"
+                "۵۴۰ تومان"
               ]
             }
           ]
@@ -895,9 +902,9 @@
               "unit": "هر ۱۰٬۰۰۰ لاگ پردازش‌شده",
               "tier": "تا ۱۰۰ میلیون",
               "price": {
-                "raw": "۹۶۰ تومان",
+                "raw": "۱٬۰۸۰ تومان",
                 "is_free": false,
-                "amount": 960,
+                "amount": 1080,
                 "currency": "IRT",
                 "note": null
               },
@@ -906,7 +913,7 @@
                 "متریک‌های دامنه",
                 "هر ۱۰٬۰۰۰ لاگ پردازش‌شده",
                 "تا ۱۰۰ میلیون",
-                "۹۶۰ تومان"
+                "۱٬۰۸۰ تومان"
               ]
             },
             {
@@ -915,9 +922,9 @@
               "unit": null,
               "tier": "۱۰۰ میلیون تا ۱ میلیارد",
               "price": {
-                "raw": "۴۸۰ تومان",
+                "raw": "۵۴۰ تومان",
                 "is_free": false,
-                "amount": 480,
+                "amount": 540,
                 "currency": "IRT",
                 "note": null
               },
@@ -926,7 +933,7 @@
                 "",
                 "",
                 "۱۰۰ میلیون تا ۱ میلیارد",
-                "۴۸۰ تومان"
+                "۵۴۰ تومان"
               ]
             },
             {
@@ -935,9 +942,9 @@
               "unit": null,
               "tier": "بیش از ۱ میلیارد",
               "price": {
-                "raw": "۲۴۰ تومان",
+                "raw": "۲۷۰ تومان",
                 "is_free": false,
-                "amount": 240,
+                "amount": 270,
                 "currency": "IRT",
                 "note": null
               },
@@ -946,7 +953,7 @@
                 "",
                 "",
                 "بیش از ۱ میلیارد",
-                "۲۴۰ تومان"
+                "۲۷۰ تومان"
               ]
             },
             {
@@ -973,9 +980,9 @@
               "unit": "هر اکسپورتر",
               "tier": null,
               "price": {
-                "raw": "۲,۴۰۰,۰۰۰ تومان",
+                "raw": "۲٬۷۰۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 2400000,
+                "amount": 2700000,
                 "currency": "IRT",
                 "note": null
               },
@@ -984,7 +991,7 @@
                 "بازه ۳۰‌ ثانیه‌ای به‌روزرسانی متریک‌ها",
                 "هر اکسپورتر",
                 "-",
-                "۲,۴۰۰,۰۰۰ تومان"
+                "۲٬۷۰۰٬۰۰۰ تومان"
               ]
             },
             {
@@ -992,9 +999,9 @@
               "unit": "هر اکسپورتر",
               "tier": null,
               "price": {
-                "raw": "۳,۲۰۰,۰۰۰ تومان",
+                "raw": "۳٬۶۰۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 3200000,
+                "amount": 3600000,
                 "currency": "IRT",
                 "note": null
               },
@@ -1003,7 +1010,7 @@
                 "بازه ۱۰‌ ثانیه‌ای به‌روزرسانی متریک‌ها",
                 "هر اکسپورتر",
                 "-",
-                "۳,۲۰۰,۰۰۰ تومان"
+                "۳٬۶۰۰٬۰۰۰ تومان"
               ]
             }
           ]
@@ -1032,46 +1039,61 @@
             {
               "item": "Basic",
               "price": {
-                "raw": "۲۱۰,۰۰۰ تومان",
+                "raw": "۲۵۲٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 210000,
+                "amount": 252000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Basic",
-                "۲۱۰,۰۰۰ تومان"
+                "۲۵۲٬۰۰۰ تومان"
               ]
             },
             {
               "item": "Standard",
               "price": {
-                "raw": "۲۷۳,۰۰۰ تومان",
+                "raw": "۳۲۷٬۶۰۰ تومان",
                 "is_free": false,
-                "amount": 273000,
+                "amount": 327600,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Standard",
-                "۲۷۳,۰۰۰ تومان"
+                "۳۲۷٬۶۰۰ تومان"
               ]
             },
             {
               "item": "Premium",
               "price": {
-                "raw": "۳۹۹,۰۰۰ تومان",
+                "raw": "۴۷۸٬۸۰۰ تومان",
                 "is_free": false,
-                "amount": 399000,
+                "amount": 478800,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Premium",
-                "۳۹۹,۰۰۰ تومان"
+                "۴۷۸٬۸۰۰ تومان"
+              ]
+            },
+            {
+              "item": "Premium Plus",
+              "price": {
+                "raw": "۵۹۲٬۲۰۰ تومان",
+                "is_free": false,
+                "amount": 592200,
+                "currency": "IRT",
+                "note": null
+              },
+              "price_reduced": false,
+              "raw_cells": [
+                "Premium Plus",
+                "۵۹۲٬۲۰۰ تومان"
               ]
             }
           ]
@@ -1088,46 +1110,46 @@
             {
               "item": "Basic",
               "price": {
-                "raw": "۲۸۰,۰۰۰ تومان",
+                "raw": "۲۹۴٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 280000,
+                "amount": 294000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Basic",
-                "۲۸۰,۰۰۰ تومان"
+                "۲۹۴٬۰۰۰ تومان"
               ]
             },
             {
               "item": "Standard",
               "price": {
-                "raw": "۳۶۴,۰۰۰ تومان",
+                "raw": "۳۸۲٬۲۰۰ تومان",
                 "is_free": false,
-                "amount": 364000,
+                "amount": 382200,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Standard",
-                "۳۶۴,۰۰۰ تومان"
+                "۳۸۲٬۲۰۰ تومان"
               ]
             },
             {
               "item": "Premium",
               "price": {
-                "raw": "۴۷۸,۸۰۰ تومان",
+                "raw": "۵۵۸٬۶۰۰ تومان",
                 "is_free": false,
-                "amount": 478800,
+                "amount": 558600,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Premium",
-                "۴۷۸,۸۰۰ تومان"
+                "۵۵۸٬۶۰۰ تومان"
               ]
             }
           ]
@@ -1144,46 +1166,61 @@
             {
               "item": "Basic",
               "price": {
-                "raw": "۱۶۳,۵۰۰ تومان",
+                "raw": "۱۹۶٬۲۰۰ تومان",
                 "is_free": false,
-                "amount": 163500,
+                "amount": 196200,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Basic",
-                "۱۶۳,۵۰۰ تومان"
+                "۱۹۶٬۲۰۰ تومان"
               ]
             },
             {
               "item": "Standard",
               "price": {
-                "raw": "۲۱۲,۶۰۰ تومان",
+                "raw": "۲۵۵٬۰۶۰ تومان",
                 "is_free": false,
-                "amount": 212600,
+                "amount": 255060,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Standard",
-                "۲۱۲,۶۰۰ تومان"
+                "۲۵۵٬۰۶۰ تومان"
               ]
             },
             {
               "item": "Premium",
               "price": {
-                "raw": "۳۱۰,۷۰۰ تومان",
+                "raw": "۳۷۲٬۷۸۰ تومان",
                 "is_free": false,
-                "amount": 310700,
+                "amount": 372780,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Premium",
-                "۳۱۰,۷۰۰ تومان"
+                "۳۷۲٬۷۸۰ تومان"
+              ]
+            },
+            {
+              "item": "Premium Plus",
+              "price": {
+                "raw": "۳۷۲٬۷۸۰ تومان",
+                "is_free": false,
+                "amount": 372780,
+                "currency": "IRT",
+                "note": null
+              },
+              "price_reduced": false,
+              "raw_cells": [
+                "Premium Plus",
+                "۳۷۲٬۷۸۰ تومان"
               ]
             }
           ]
@@ -1200,46 +1237,46 @@
             {
               "item": "Basic",
               "price": {
-                "raw": "۲۱۸,۰۰۰ تومان",
+                "raw": "۲۲۸٬۹۰۰ تومان",
                 "is_free": false,
-                "amount": 218000,
+                "amount": 228900,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Basic",
-                "۲۱۸,۰۰۰ تومان"
+                "۲۲۸٬۹۰۰ تومان"
               ]
             },
             {
               "item": "Standard",
               "price": {
-                "raw": "۲۸۳,۴۰۰ تومان",
+                "raw": "۲۹۷٬۵۷۰ تومان",
                 "is_free": false,
-                "amount": 283400,
+                "amount": 297570,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Standard",
-                "۲۸۳,۴۰۰ تومان"
+                "۲۹۷٬۵۷۰ تومان"
               ]
             },
             {
               "item": "Premium",
               "price": {
-                "raw": "۳۷۲٬۸۰۰ تومان",
+                "raw": "۴۳۴٬۹۱۰ تومان",
                 "is_free": false,
-                "amount": 372800,
+                "amount": 434910,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Premium",
-                "۳۷۲٬۸۰۰ تومان"
+                "۴۳۴٬۹۱۰ تومان"
               ]
             }
           ]
@@ -1256,147 +1293,16 @@
             {
               "item": "بلاک استوریج (Warm)",
               "price": {
-                "raw": "۷٬۲۰۰ تومان",
+                "raw": "۸٬۶۴۰ تومان",
                 "is_free": false,
-                "amount": 7200,
+                "amount": 8640,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "بلاک استوریج (Warm)",
-                "۷٬۲۰۰ تومان"
-              ]
-            },
-            {
-              "item": "بلاک استوریج (Local)",
-              "price": {
-                "raw": "۲۱,۰۰۰ تومان",
-                "is_free": false,
-                "amount": 21000,
-                "currency": "IRT",
-                "note": null
-              },
-              "price_reduced": false,
-              "raw_cells": [
-                "بلاک استوریج (Local)",
-                "۲۱,۰۰۰ تومان"
-              ]
-            },
-            {
-              "item": "بلاک استوریج (Eco)",
-              "price": {
-                "raw": "۱۵,۰۰۰ تومان",
-                "is_free": false,
-                "amount": 15000,
-                "currency": "IRT",
-                "note": null
-              },
-              "price_reduced": false,
-              "raw_cells": [
-                "بلاک استوریج (Eco)",
-                "۱۵,۰۰۰ تومان"
-              ]
-            },
-            {
-              "item": "بلاک استوریج (Hot-SSD)",
-              "price": {
-                "raw": "۱۵,۰۰۰ تومان",
-                "is_free": false,
-                "amount": 15000,
-                "currency": "IRT",
-                "note": null
-              },
-              "price_reduced": false,
-              "raw_cells": [
-                "بلاک استوریج (Hot-SSD)",
-                "۱۵,۰۰۰ تومان"
-              ]
-            },
-            {
-              "item": "ذخیره‌سازی Image",
-              "price": {
-                "raw": "۱۵,۰۰۰ تومان",
-                "is_free": false,
-                "amount": 15000,
-                "currency": "IRT",
-                "note": null
-              },
-              "price_reduced": false,
-              "raw_cells": [
-                "ذخیره‌سازی Image",
-                "۱۵,۰۰۰ تومان"
-              ]
-            },
-            {
-              "item": "بکاپ",
-              "price": {
-                "raw": "۱۴٬۴۰۰ تومان",
-                "is_free": false,
-                "amount": 14400,
-                "currency": "IRT",
-                "note": null
-              },
-              "price_reduced": false,
-              "raw_cells": [
-                "بکاپ",
-                "۱۴٬۴۰۰ تومان"
-              ]
-            },
-            {
-              "item": "اسنپ‌شات",
-              "price": {
-                "raw": "۱۵,۰۰۰ تومان",
-                "is_free": false,
-                "amount": 15000,
-                "currency": "IRT",
-                "note": null
-              },
-              "price_reduced": false,
-              "raw_cells": [
-                "اسنپ‌شات",
-                "۱۵,۰۰۰ تومان"
-              ]
-            },
-            {
-              "item": "فایل استوریج",
-              "price": {
-                "raw": "۱۷,۳۰۰ تومان",
-                "is_free": false,
-                "amount": 17300,
-                "currency": "IRT",
-                "note": null
-              },
-              "price_reduced": false,
-              "raw_cells": [
-                "فایل استوریج",
-                "۱۷,۳۰۰ تومان"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "فضای ذخیره‌سازی",
-          "region": "europe",
-          "price_basis": "هر گیگابایت",
-          "columns": [
-            "فضای ذخیره‌سازی",
-            "هر گیگابایت"
-          ],
-          "rows": [
-            {
-              "item": "بلاک استوریج (Warm)",
-              "price": {
-                "raw": "۹,۶۰۰ تومان",
-                "is_free": false,
-                "amount": 9600,
-                "currency": "IRT",
-                "note": null
-              },
-              "price_reduced": false,
-              "raw_cells": [
-                "بلاک استوریج (Warm)",
-                "۹,۶۰۰ تومان"
+                "۸٬۶۴۰ تومان"
               ]
             },
             {
@@ -1417,91 +1323,222 @@
             {
               "item": "بلاک استوریج (Eco)",
               "price": {
-                "raw": "۲۰,۰۰۰ تومان",
+                "raw": "۱۸٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 20000,
+                "amount": 18000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "بلاک استوریج (Eco)",
-                "۲۰,۰۰۰ تومان"
+                "۱۸٬۰۰۰ تومان"
               ]
             },
             {
               "item": "بلاک استوریج (Hot-SSD)",
               "price": {
-                "raw": "۲۰,۰۰۰ تومان",
+                "raw": "۱۸٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 20000,
+                "amount": 18000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "بلاک استوریج (Hot-SSD)",
-                "۲۰,۰۰۰ تومان"
+                "۱۸٬۰۰۰ تومان"
               ]
             },
             {
               "item": "ذخیره‌سازی Image",
               "price": {
-                "raw": "۲۰,۰۰۰ تومان",
+                "raw": "۱۸٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 20000,
+                "amount": 18000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "ذخیره‌سازی Image",
-                "۲۰,۰۰۰ تومان"
+                "۱۸٬۰۰۰ تومان"
               ]
             },
             {
               "item": "بکاپ",
               "price": {
-                "raw": "۱۹,۲۰۰ تومان",
+                "raw": "۱۷٬۲۸۰ تومان",
                 "is_free": false,
-                "amount": 19200,
+                "amount": 17280,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "بکاپ",
-                "۱۹,۲۰۰ تومان"
+                "۱۷٬۲۸۰ تومان"
               ]
             },
             {
               "item": "اسنپ‌شات",
               "price": {
-                "raw": "۲۰,۰۰۰ تومان",
+                "raw": "۱۸٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 20000,
+                "amount": 18000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "اسنپ‌شات",
-                "۲۰,۰۰۰ تومان"
+                "۱۸٬۰۰۰ تومان"
               ]
             },
             {
               "item": "فایل استوریج",
               "price": {
-                "raw": "۲۳,۰۰۰ تومان",
+                "raw": "۲۰٬۷۰۰ تومان",
                 "is_free": false,
-                "amount": 23000,
+                "amount": 20700,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "فایل استوریج",
-                "۲۳,۰۰۰ تومان"
+                "۲۰٬۷۰۰ تومان"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "فضای ذخیره‌سازی",
+          "region": "europe",
+          "price_basis": "هر گیگابایت",
+          "columns": [
+            "فضای ذخیره‌سازی",
+            "هر گیگابایت"
+          ],
+          "rows": [
+            {
+              "item": "بلاک استوریج (Warm)",
+              "price": {
+                "raw": "۱۰٬۰۸۰ تومان",
+                "is_free": false,
+                "amount": 10080,
+                "currency": "IRT",
+                "note": null
+              },
+              "price_reduced": false,
+              "raw_cells": [
+                "بلاک استوریج (Warm)",
+                "۱۰٬۰۸۰ تومان"
+              ]
+            },
+            {
+              "item": "بلاک استوریج (Local)",
+              "price": {
+                "raw": "۲۹٬۴۰۰ تومان",
+                "is_free": false,
+                "amount": 29400,
+                "currency": "IRT",
+                "note": null
+              },
+              "price_reduced": false,
+              "raw_cells": [
+                "بلاک استوریج (Local)",
+                "۲۹٬۴۰۰ تومان"
+              ]
+            },
+            {
+              "item": "بلاک استوریج (Eco)",
+              "price": {
+                "raw": "۲۱٬۰۰۰ تومان",
+                "is_free": false,
+                "amount": 21000,
+                "currency": "IRT",
+                "note": null
+              },
+              "price_reduced": false,
+              "raw_cells": [
+                "بلاک استوریج (Eco)",
+                "۲۱٬۰۰۰ تومان"
+              ]
+            },
+            {
+              "item": "بلاک استوریج (Hot-SSD)",
+              "price": {
+                "raw": "۲۱٬۰۰۰ تومان",
+                "is_free": false,
+                "amount": 21000,
+                "currency": "IRT",
+                "note": null
+              },
+              "price_reduced": false,
+              "raw_cells": [
+                "بلاک استوریج (Hot-SSD)",
+                "۲۱٬۰۰۰ تومان"
+              ]
+            },
+            {
+              "item": "ذخیره‌سازی Image",
+              "price": {
+                "raw": "۲۱٬۰۰۰ تومان",
+                "is_free": false,
+                "amount": 21000,
+                "currency": "IRT",
+                "note": null
+              },
+              "price_reduced": false,
+              "raw_cells": [
+                "ذخیره‌سازی Image",
+                "۲۱٬۰۰۰ تومان"
+              ]
+            },
+            {
+              "item": "بکاپ",
+              "price": {
+                "raw": "۲۰٬۱۶۰ تومان",
+                "is_free": false,
+                "amount": 20160,
+                "currency": "IRT",
+                "note": null
+              },
+              "price_reduced": false,
+              "raw_cells": [
+                "بکاپ",
+                "۲۰٬۱۶۰ تومان"
+              ]
+            },
+            {
+              "item": "اسنپ‌شات",
+              "price": {
+                "raw": "۲۱٬۰۰۰ تومان",
+                "is_free": false,
+                "amount": 21000,
+                "currency": "IRT",
+                "note": null
+              },
+              "price_reduced": false,
+              "raw_cells": [
+                "اسنپ‌شات",
+                "۲۱٬۰۰۰ تومان"
+              ]
+            },
+            {
+              "item": "فایل استوریج",
+              "price": {
+                "raw": "۲۴٬۱۵۰ تومان",
+                "is_free": false,
+                "amount": 24150,
+                "currency": "IRT",
+                "note": null
+              },
+              "price_reduced": false,
+              "raw_cells": [
+                "فایل استوریج",
+                "۲۴٬۱۵۰ تومان"
               ]
             }
           ]
@@ -1679,31 +1716,31 @@
             {
               "item": "به‌ازای IPv4 اول",
               "price": {
-                "raw": "۱۹۵,۰۰۰ تومان",
+                "raw": "۲۳۴٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 195000,
+                "amount": 234000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "به‌ازای IPv4 اول",
-                "۱۹۵,۰۰۰ تومان"
+                "۲۳۴٬۰۰۰ تومان"
               ]
             },
             {
               "item": "به‌ازای IPv4 بیش‌تر",
               "price": {
-                "raw": "۳۹۰,۰۰۰ تومان",
+                "raw": "۴۶۸٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 390000,
+                "amount": 468000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "به‌ازای IPv4 بیش‌تر",
-                "۳۹۰,۰۰۰ تومان"
+                "۴۶۸٬۰۰۰ تومان"
               ]
             }
           ]
@@ -1720,31 +1757,31 @@
             {
               "item": "به‌ازای IPv4 اول",
               "price": {
-                "raw": "۲۶۰,۰۰۰ تومان",
+                "raw": "۲۷۳٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 260000,
+                "amount": 273000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "به‌ازای IPv4 اول",
-                "۲۶۰,۰۰۰ تومان"
+                "۲۷۳٬۰۰۰ تومان"
               ]
             },
             {
               "item": "به‌ازای IPv4 بیش‌تر",
               "price": {
-                "raw": "۵۲۰,۰۰۰ تومان",
+                "raw": "۵۴۶٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 520000,
+                "amount": 546000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "به‌ازای IPv4 بیش‌تر",
-                "۵۲۰,۰۰۰ تومان"
+                "۵۴۶٬۰۰۰ تومان"
               ]
             }
           ]
@@ -1780,7 +1817,7 @@
               "item": "ترافیک دریافت",
               "tier": "تا ۲۵۰ گیگابایت",
               "price": {
-                "raw": "رایگان به‌ازای هر حساب کاربری",
+                "raw": "رایگان",
                 "is_free": true,
                 "amount": 0,
                 "currency": null,
@@ -1790,7 +1827,7 @@
               "raw_cells": [
                 "ترافیک دریافت",
                 "تا ۲۵۰ گیگابایت",
-                "رایگان به‌ازای هر حساب کاربری"
+                "رایگان"
               ]
             },
             {
@@ -1863,7 +1900,7 @@
               "item": "ترافیک ارسال و دریافت",
               "tier": "تا ۱۰ ترابایت",
               "price": {
-                "raw": "رایگان به‌ازای هر ابرک",
+                "raw": "رایگان",
                 "is_free": true,
                 "amount": 0,
                 "currency": null,
@@ -1873,7 +1910,7 @@
               "raw_cells": [
                 "ترافیک ارسال و دریافت",
                 "تا ۱۰ ترابایت",
-                "رایگان به‌ازای هر ابرک"
+                "رایگان"
               ]
             },
             {
@@ -1908,16 +1945,16 @@
             {
               "item": "سرور اختصاصی ابری",
               "price": {
-                "raw": "- براساس منابع مشخص‌شده در پنل کاربری",
+                "raw": "-",
                 "is_free": false,
                 "amount": null,
                 "currency": null,
-                "note": null
+                "note": "براساس منابع مشخص‌شده در پنل کاربری"
               },
               "price_reduced": false,
               "raw_cells": [
                 "سرور اختصاصی ابری",
-                "- براساس منابع مشخص‌شده در پنل کاربری"
+                "-"
               ]
             }
           ]
@@ -1959,31 +1996,31 @@
             {
               "item": "رشد",
               "price": {
-                "raw": "۱٬۵۰۰٬۰۰۰ تومان",
+                "raw": "۱٬۸۰۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 1500000,
+                "amount": 1800000,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "رشد",
-                "۱٬۵۰۰٬۰۰۰ تومان"
+                "۱٬۸۰۰٬۰۰۰ تومان"
               ]
             },
             {
               "item": "حرفه‌ای",
               "price": {
-                "raw": "۱۵٬۰۰۰٬۰۰۰ تومان",
+                "raw": "۱۸٬۰۰۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 15000000,
+                "amount": 18000000,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "حرفه‌ای",
-                "۱۵٬۰۰۰٬۰۰۰ تومان"
+                "۱۸٬۰۰۰٬۰۰۰ تومان"
               ]
             }
           ]
@@ -2020,9 +2057,9 @@
               "continues_previous_item": true,
               "tier": "۵ گیگابایت تا ۵ ترابایت",
               "price": {
-                "raw": "۳٬۰۰۰ تومان",
+                "raw": "۳٬۶۰۰ تومان",
                 "is_free": false,
-                "amount": 3000,
+                "amount": 3600,
                 "currency": "IRT",
                 "note": null
               },
@@ -2030,7 +2067,7 @@
               "raw_cells": [
                 "",
                 "۵ گیگابایت تا ۵ ترابایت",
-                "۳٬۰۰۰ تومان"
+                "۳٬۶۰۰ تومان"
               ]
             },
             {
@@ -2038,9 +2075,9 @@
               "continues_previous_item": true,
               "tier": "۵ تا ۵۰ ترابایت",
               "price": {
-                "raw": "۲٬۶۰۰ تومان",
+                "raw": "۳٬۰۶۰ تومان",
                 "is_free": false,
-                "amount": 2600,
+                "amount": 3060,
                 "currency": "IRT",
                 "note": null
               },
@@ -2048,7 +2085,7 @@
               "raw_cells": [
                 "",
                 "۵ تا ۵۰ ترابایت",
-                "۲٬۶۰۰ تومان"
+                "۳٬۰۶۰ تومان"
               ]
             },
             {
@@ -2056,9 +2093,9 @@
               "continues_previous_item": true,
               "tier": "۵۰ تا ۵۰۰ ترابایت",
               "price": {
-                "raw": "۲٬۳۰۰ تومان",
+                "raw": "۲٬۷۰۰ تومان",
                 "is_free": false,
-                "amount": 2300,
+                "amount": 2700,
                 "currency": "IRT",
                 "note": null
               },
@@ -2066,7 +2103,7 @@
               "raw_cells": [
                 "",
                 "۵۰ تا ۵۰۰ ترابایت",
-                "۲٬۳۰۰ تومان"
+                "۲٬۷۰۰ تومان"
               ]
             },
             {
@@ -2074,9 +2111,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۵۰۰ ترابایت",
               "price": {
-                "raw": "۲٬۰۰۰ تومان",
+                "raw": "۲٬۳۴۰ تومان",
                 "is_free": false,
-                "amount": 2000,
+                "amount": 2340,
                 "currency": "IRT",
                 "note": null
               },
@@ -2084,16 +2121,16 @@
               "raw_cells": [
                 "",
                 "بیش از ۵۰۰ ترابایت",
-                "۲٬۰۰۰ تومان"
+                "۲٬۳۴۰ تومان"
               ]
             },
             {
               "item": "فضای ذخیره‌سازی Hiops",
               "tier": null,
               "price": {
-                "raw": "۹٬۰۰۰ تومان",
+                "raw": "۱۰٬۸۰۰ تومان",
                 "is_free": false,
-                "amount": 9000,
+                "amount": 10800,
                 "currency": "IRT",
                 "note": null
               },
@@ -2101,7 +2138,7 @@
               "raw_cells": [
                 "فضای ذخیره‌سازی Hiops",
                 "-",
-                "۹٬۰۰۰ تومان"
+                "۱۰٬۸۰۰ تومان"
               ]
             }
           ]
@@ -2138,9 +2175,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۱۰٬۰۰۰ درخواست",
               "price": {
-                "raw": "۵۰۰ تومان",
+                "raw": "۶۳۰ تومان",
                 "is_free": false,
-                "amount": 500,
+                "amount": 630,
                 "currency": "IRT",
                 "note": null
               },
@@ -2148,7 +2185,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۱۰٬۰۰۰ درخواست",
-                "۵۰۰ تومان"
+                "۶۳۰ تومان"
               ]
             },
             {
@@ -2173,9 +2210,9 @@
               "continues_previous_item": true,
               "tier": "۲۰٬۰۰۰ تا ۱ میلیون درخواست",
               "price": {
-                "raw": "۵۰۰ تومان",
+                "raw": "۶۳۰ تومان",
                 "is_free": false,
-                "amount": 500,
+                "amount": 630,
                 "currency": "IRT",
                 "note": null
               },
@@ -2183,7 +2220,7 @@
               "raw_cells": [
                 "",
                 "۲۰٬۰۰۰ تا ۱ میلیون درخواست",
-                "۵۰۰ تومان"
+                "۶۳۰ تومان"
               ]
             },
             {
@@ -2191,9 +2228,9 @@
               "continues_previous_item": true,
               "tier": "۱ میلیون تا ۲۰ میلیون درخواست",
               "price": {
-                "raw": "۴۰۰ تومان",
+                "raw": "۵۰۴ تومان",
                 "is_free": false,
-                "amount": 400,
+                "amount": 504,
                 "currency": "IRT",
                 "note": null
               },
@@ -2201,7 +2238,7 @@
               "raw_cells": [
                 "",
                 "۱ میلیون تا ۲۰ میلیون درخواست",
-                "۴۰۰ تومان"
+                "۵۰۴ تومان"
               ]
             },
             {
@@ -2209,9 +2246,9 @@
               "continues_previous_item": true,
               "tier": "۲۰ میلیون تا ۲۰۰ میلیون درخواست",
               "price": {
-                "raw": "۳۵۰ تومان",
+                "raw": "۴۴۵ تومان",
                 "is_free": false,
-                "amount": 350,
+                "amount": 445,
                 "currency": "IRT",
                 "note": null
               },
@@ -2219,7 +2256,7 @@
               "raw_cells": [
                 "",
                 "۲۰ میلیون تا ۲۰۰ میلیون درخواست",
-                "۳۵۰ تومان"
+                "۴۴۵ تومان"
               ]
             },
             {
@@ -2227,17 +2264,17 @@
               "continues_previous_item": true,
               "tier": "بیش از ۲۰۰ میلیون درخواست",
               "price": {
-                "raw": "۳۰۰ تومان",
+                "raw": "۳۱۵ تومان",
                 "is_free": false,
-                "amount": 300,
+                "amount": 315,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "",
                 "بیش از ۲۰۰ میلیون درخواست",
-                "۳۰۰ تومان"
+                "۳۱۵ تومان"
               ]
             },
             {
@@ -2262,9 +2299,9 @@
               "continues_previous_item": true,
               "tier": "۱۰۰٬۰۰۰ تا ۱ میلیون درخواست",
               "price": {
-                "raw": "۵۰۰ تومان",
+                "raw": "۶۳۰ تومان",
                 "is_free": false,
-                "amount": 500,
+                "amount": 630,
                 "currency": "IRT",
                 "note": null
               },
@@ -2272,7 +2309,7 @@
               "raw_cells": [
                 "",
                 "۱۰۰٬۰۰۰ تا ۱ میلیون درخواست",
-                "۵۰۰ تومان"
+                "۶۳۰ تومان"
               ]
             },
             {
@@ -2280,9 +2317,9 @@
               "continues_previous_item": true,
               "tier": "۱ میلیون تا ۲۰ میلیون درخواست",
               "price": {
-                "raw": "۴۰۰ تومان",
+                "raw": "۵۰۴ تومان",
                 "is_free": false,
-                "amount": 400,
+                "amount": 504,
                 "currency": "IRT",
                 "note": null
               },
@@ -2290,7 +2327,7 @@
               "raw_cells": [
                 "",
                 "۱ میلیون تا ۲۰ میلیون درخواست",
-                "۴۰۰ تومان"
+                "۵۰۴ تومان"
               ]
             },
             {
@@ -2298,9 +2335,9 @@
               "continues_previous_item": true,
               "tier": "۲۰ میلیون تا ۲۰۰ میلیون درخواست",
               "price": {
-                "raw": "۳۵۰ تومان",
+                "raw": "۴۴۵ تومان",
                 "is_free": false,
-                "amount": 350,
+                "amount": 445,
                 "currency": "IRT",
                 "note": null
               },
@@ -2308,7 +2345,7 @@
               "raw_cells": [
                 "",
                 "۲۰ میلیون تا ۲۰۰ میلیون درخواست",
-                "۳۵۰ تومان"
+                "۴۴۵ تومان"
               ]
             },
             {
@@ -2316,17 +2353,17 @@
               "continues_previous_item": true,
               "tier": "بیش از ۲۰۰ میلیون درخواست",
               "price": {
-                "raw": "۳۰۰ تومان",
+                "raw": "۳۱۵ تومان",
                 "is_free": false,
-                "amount": 300,
+                "amount": 315,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "",
                 "بیش از ۲۰۰ میلیون درخواست",
-                "۳۰۰ تومان"
+                "۳۱۵ تومان"
               ]
             },
             {
@@ -2351,9 +2388,9 @@
               "continues_previous_item": true,
               "tier": "۱۰۰٬۰۰۰ تا ۱ میلیون درخواست",
               "price": {
-                "raw": "۵۰۰ تومان",
+                "raw": "۶۳۰ تومان",
                 "is_free": false,
-                "amount": 500,
+                "amount": 630,
                 "currency": "IRT",
                 "note": null
               },
@@ -2361,7 +2398,7 @@
               "raw_cells": [
                 "",
                 "۱۰۰٬۰۰۰ تا ۱ میلیون درخواست",
-                "۵۰۰ تومان"
+                "۶۳۰ تومان"
               ]
             },
             {
@@ -2369,9 +2406,9 @@
               "continues_previous_item": true,
               "tier": "۱ میلیون تا ۲۰ میلیون درخواست",
               "price": {
-                "raw": "۴۰۰ تومان",
+                "raw": "۵۰۴ تومان",
                 "is_free": false,
-                "amount": 400,
+                "amount": 504,
                 "currency": "IRT",
                 "note": null
               },
@@ -2379,7 +2416,7 @@
               "raw_cells": [
                 "",
                 "۱ میلیون تا ۲۰ میلیون درخواست",
-                "۴۰۰ تومان"
+                "۵۰۴ تومان"
               ]
             },
             {
@@ -2387,9 +2424,9 @@
               "continues_previous_item": true,
               "tier": "۲۰ میلیون تا ۲۰۰ میلیون درخواست",
               "price": {
-                "raw": "۳۵۰ تومان",
+                "raw": "۴۴۵ تومان",
                 "is_free": false,
-                "amount": 350,
+                "amount": 445,
                 "currency": "IRT",
                 "note": null
               },
@@ -2397,7 +2434,7 @@
               "raw_cells": [
                 "",
                 "۲۰ میلیون تا ۲۰۰ میلیون درخواست",
-                "۳۵۰ تومان"
+                "۴۴۵ تومان"
               ]
             },
             {
@@ -2405,17 +2442,17 @@
               "continues_previous_item": true,
               "tier": "بیش از ۲۰۰ میلیون درخواست",
               "price": {
-                "raw": "۳۰۰ تومان",
+                "raw": "۳۱۵ تومان",
                 "is_free": false,
-                "amount": 300,
+                "amount": 315,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "",
                 "بیش از ۲۰۰ میلیون درخواست",
-                "۳۰۰ تومان"
+                "۳۱۵ تومان"
               ]
             }
           ]
@@ -2452,9 +2489,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۱۰٬۰۰۰ درخواست",
               "price": {
-                "raw": "۶٬۰۰۰ تومان",
+                "raw": "۶٬۸۴۰ تومان",
                 "is_free": false,
-                "amount": 6000,
+                "amount": 6840,
                 "currency": "IRT",
                 "note": null
               },
@@ -2462,7 +2499,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۱۰٬۰۰۰ درخواست",
-                "۶٬۰۰۰ تومان"
+                "۶٬۸۴۰ تومان"
               ]
             },
             {
@@ -2487,9 +2524,9 @@
               "continues_previous_item": true,
               "tier": "۲۰٬۰۰۰ تا ۱ میلیون درخواست",
               "price": {
-                "raw": "۶٬۰۰۰ تومان",
+                "raw": "۶٬۸۴۰ تومان",
                 "is_free": false,
-                "amount": 6000,
+                "amount": 6840,
                 "currency": "IRT",
                 "note": null
               },
@@ -2497,7 +2534,7 @@
               "raw_cells": [
                 "",
                 "۲۰٬۰۰۰ تا ۱ میلیون درخواست",
-                "۶٬۰۰۰ تومان"
+                "۶٬۸۴۰ تومان"
               ]
             },
             {
@@ -2505,9 +2542,9 @@
               "continues_previous_item": true,
               "tier": "۱ میلیون تا ۲۰ میلیون درخواست",
               "price": {
-                "raw": "۵٬۵۰۰ تومان",
+                "raw": "۶٬۱۵۵ تومان",
                 "is_free": false,
-                "amount": 5500,
+                "amount": 6155,
                 "currency": "IRT",
                 "note": null
               },
@@ -2515,7 +2552,7 @@
               "raw_cells": [
                 "",
                 "۱ میلیون تا ۲۰ میلیون درخواست",
-                "۵٬۵۰۰ تومان"
+                "۶٬۱۵۵ تومان"
               ]
             },
             {
@@ -2523,9 +2560,9 @@
               "continues_previous_item": true,
               "tier": "۲۰ میلیون تا ۵۰ میلیون درخواست",
               "price": {
-                "raw": "۵٬۰۰۰ تومان",
+                "raw": "۵٬۸۱۵ تومان",
                 "is_free": false,
-                "amount": 5000,
+                "amount": 5815,
                 "currency": "IRT",
                 "note": null
               },
@@ -2533,7 +2570,7 @@
               "raw_cells": [
                 "",
                 "۲۰ میلیون تا ۵۰ میلیون درخواست",
-                "۵٬۰۰۰ تومان"
+                "۵٬۸۱۵ تومان"
               ]
             },
             {
@@ -2541,9 +2578,9 @@
               "continues_previous_item": true,
               "tier": "۵۰ میلیون تا ۲۰۰ میلیون",
               "price": {
-                "raw": "۴٬۰۰۰ تومان",
+                "raw": "۴٬۷۹۰ تومان",
                 "is_free": false,
-                "amount": 4000,
+                "amount": 4790,
                 "currency": "IRT",
                 "note": null
               },
@@ -2551,7 +2588,7 @@
               "raw_cells": [
                 "",
                 "۵۰ میلیون تا ۲۰۰ میلیون",
-                "۴٬۰۰۰ تومان"
+                "۴٬۷۹۰ تومان"
               ]
             },
             {
@@ -2559,9 +2596,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۲۰۰ میلیون درخواست",
               "price": {
-                "raw": "۳٬۰۰۰ تومان",
+                "raw": "۴٬۱۰۵ تومان",
                 "is_free": false,
-                "amount": 3000,
+                "amount": 4105,
                 "currency": "IRT",
                 "note": null
               },
@@ -2569,7 +2606,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۲۰۰ میلیون درخواست",
-                "۳٬۰۰۰ تومان"
+                "۴٬۱۰۵ تومان"
               ]
             },
             {
@@ -2594,9 +2631,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۵۰٬۰۰۰ درخواست",
               "price": {
-                "raw": "۶٬۱۰۰ تومان",
+                "raw": "۶٬۸۴۰ تومان",
                 "is_free": false,
-                "amount": 6100,
+                "amount": 6840,
                 "currency": "IRT",
                 "note": null
               },
@@ -2604,7 +2641,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۵۰٬۰۰۰ درخواست",
-                "۶٬۱۰۰ تومان"
+                "۶٬۸۴۰ تومان"
               ]
             },
             {
@@ -2629,9 +2666,9 @@
               "continues_previous_item": true,
               "tier": "۱۰۰٬۰۰۰ تا ۱ میلیون درخواست",
               "price": {
-                "raw": "۶٬۱۰۰ تومان",
+                "raw": "۶٬۸۴۰ تومان",
                 "is_free": false,
-                "amount": 6100,
+                "amount": 6840,
                 "currency": "IRT",
                 "note": null
               },
@@ -2639,7 +2676,7 @@
               "raw_cells": [
                 "",
                 "۱۰۰٬۰۰۰ تا ۱ میلیون درخواست",
-                "۶٬۱۰۰ تومان"
+                "۶٬۸۴۰ تومان"
               ]
             },
             {
@@ -2647,9 +2684,9 @@
               "continues_previous_item": true,
               "tier": "۱ میلیون تا ۲۰ میلیون درخواست",
               "price": {
-                "raw": "۵٬۵۰۰ تومان",
+                "raw": "۶٬۱۵۵ تومان",
                 "is_free": false,
-                "amount": 5500,
+                "amount": 6155,
                 "currency": "IRT",
                 "note": null
               },
@@ -2657,7 +2694,7 @@
               "raw_cells": [
                 "",
                 "۱ میلیون تا ۲۰ میلیون درخواست",
-                "۵٬۵۰۰ تومان"
+                "۶٬۱۵۵ تومان"
               ]
             },
             {
@@ -2665,9 +2702,9 @@
               "continues_previous_item": true,
               "tier": "۲۰ میلیون تا ۵۰ میلیون درخواست",
               "price": {
-                "raw": "۵٬۰۰۰ تومان",
+                "raw": "۵٬۸۱۵ تومان",
                 "is_free": false,
-                "amount": 5000,
+                "amount": 5815,
                 "currency": "IRT",
                 "note": null
               },
@@ -2675,7 +2712,7 @@
               "raw_cells": [
                 "",
                 "۲۰ میلیون تا ۵۰ میلیون درخواست",
-                "۵٬۰۰۰ تومان"
+                "۵٬۸۱۵ تومان"
               ]
             },
             {
@@ -2683,9 +2720,9 @@
               "continues_previous_item": true,
               "tier": "۵۰ میلیون تا ۲۰۰ میلیون",
               "price": {
-                "raw": "۴٬۰۰۰ تومان",
+                "raw": "۴٬۷۹۰ تومان",
                 "is_free": false,
-                "amount": 4000,
+                "amount": 4790,
                 "currency": "IRT",
                 "note": null
               },
@@ -2693,7 +2730,7 @@
               "raw_cells": [
                 "",
                 "۵۰ میلیون تا ۲۰۰ میلیون",
-                "۴٬۰۰۰ تومان"
+                "۴٬۷۹۰ تومان"
               ]
             },
             {
@@ -2701,9 +2738,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۲۰۰ میلیون درخواست",
               "price": {
-                "raw": "۳٬۰۰۰ تومان",
+                "raw": "۴٬۱۰۵ تومان",
                 "is_free": false,
-                "amount": 3000,
+                "amount": 4105,
                 "currency": "IRT",
                 "note": null
               },
@@ -2711,7 +2748,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۲۰۰ میلیون درخواست",
-                "۳٬۰۰۰ تومان"
+                "۴٬۱۰۵ تومان"
               ]
             }
           ]
@@ -2748,9 +2785,9 @@
               "continues_previous_item": true,
               "tier": "۲۰ گیگابایت تا ۲۰ ترابایت",
               "price": {
-                "raw": "۸۵۰ تومان",
+                "raw": "۹۶۵ تومان",
                 "is_free": false,
-                "amount": 850,
+                "amount": 965,
                 "currency": "IRT",
                 "note": null
               },
@@ -2758,7 +2795,7 @@
               "raw_cells": [
                 "",
                 "۲۰ گیگابایت تا ۲۰ ترابایت",
-                "۸۵۰ تومان"
+                "۹۶۵ تومان"
               ]
             },
             {
@@ -2766,9 +2803,9 @@
               "continues_previous_item": true,
               "tier": "۲۰ تا ۲۰۰ ترابایت",
               "price": {
-                "raw": "۷۰۰ تومان",
+                "raw": "۸۲۰ تومان",
                 "is_free": false,
-                "amount": 700,
+                "amount": 820,
                 "currency": "IRT",
                 "note": null
               },
@@ -2776,7 +2813,7 @@
               "raw_cells": [
                 "",
                 "۲۰ تا ۲۰۰ ترابایت",
-                "۷۰۰ تومان"
+                "۸۲۰ تومان"
               ]
             },
             {
@@ -2784,9 +2821,9 @@
               "continues_previous_item": true,
               "tier": "۲۰۰ ترابایت تا ۲ پتابایت",
               "price": {
-                "raw": "۶۰۰ تومان",
+                "raw": "۶۷۵ تومان",
                 "is_free": false,
-                "amount": 600,
+                "amount": 675,
                 "currency": "IRT",
                 "note": null
               },
@@ -2794,7 +2831,7 @@
               "raw_cells": [
                 "",
                 "۲۰۰ ترابایت تا ۲ پتابایت",
-                "۶۰۰ تومان"
+                "۶۷۵ تومان"
               ]
             },
             {
@@ -2802,9 +2839,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۲ پتابایت",
               "price": {
-                "raw": "۵۰۰ تومان",
+                "raw": "۵۸۰ تومان",
                 "is_free": false,
-                "amount": 500,
+                "amount": 580,
                 "currency": "IRT",
                 "note": null
               },
@@ -2812,7 +2849,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۲ پتابایت",
-                "۵۰۰ تومان"
+                "۵۸۰ تومان"
               ]
             }
           ]
@@ -2829,31 +2866,31 @@
             {
               "item": "نقطه دسترسی",
               "price": {
-                "raw": "۹۰ تومان",
+                "raw": "۹۶ تومان",
                 "is_free": false,
-                "amount": 90,
+                "amount": 96,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "نقطه دسترسی",
-                "۹۰ تومان"
+                "۹۶ تومان"
               ]
             },
             {
               "item": "آنتی ویروس",
               "price": {
-                "raw": "۱۰٬۰۰۰ تومان",
+                "raw": "۱۱٬۲۵۰ تومان",
                 "is_free": false,
-                "amount": 10000,
+                "amount": 11250,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "آنتی ویروس",
-                "۱۰٬۰۰۰ تومان"
+                "۱۱٬۲۵۰ تومان"
               ]
             }
           ]
@@ -2895,31 +2932,31 @@
             {
               "item": "رشد",
               "price": {
-                "raw": "۱,۸۳۰,۰۰۰ تومان",
+                "raw": "۲٬۱۶۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 1830000,
+                "amount": 2160000,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "رشد",
-                "۱,۸۳۰,۰۰۰ تومان"
+                "۲٬۱۶۰٬۰۰۰ تومان"
               ]
             },
             {
               "item": "حرفه‌ای",
               "price": {
-                "raw": "۱۸,۳۰۰,۰۰۰ تومان",
+                "raw": "۲۱٬۶۰۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 18300000,
+                "amount": 21600000,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "حرفه‌ای",
-                "۱۸,۳۰۰,۰۰۰ تومان"
+                "۲۱٬۶۰۰٬۰۰۰ تومان"
               ]
             }
           ]
@@ -2938,17 +2975,17 @@
               "item": "ذخیره‌سازی ویدیو و صوت",
               "tier": "تا ۱٬۰۰۰ ساعت",
               "price": {
-                "raw": "۱۵,۰۰۰ تومان",
+                "raw": "۱۸٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 15000,
+                "amount": 18000,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "ذخیره‌سازی ویدیو و صوت",
                 "تا ۱٬۰۰۰ ساعت",
-                "۱۵,۰۰۰ تومان"
+                "۱۸٬۰۰۰ تومان"
               ]
             },
             {
@@ -2956,17 +2993,17 @@
               "continues_previous_item": true,
               "tier": "۱٬۰۰۰ تا ۱۰٬۰۰۰ ساعت",
               "price": {
-                "raw": "۱۲٬۰۰۰ تومان",
+                "raw": "۱۴٬۴۰۰ تومان",
                 "is_free": false,
-                "amount": 12000,
+                "amount": 14400,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "",
                 "۱٬۰۰۰ تا ۱۰٬۰۰۰ ساعت",
-                "۱۲٬۰۰۰ تومان"
+                "۱۴٬۴۰۰ تومان"
               ]
             },
             {
@@ -2974,17 +3011,17 @@
               "continues_previous_item": true,
               "tier": "۱۰٬۰۰۰ تا ۱۰۰٬۰۰۰ ساعت",
               "price": {
-                "raw": "۱۰٬۵۰۰ تومان",
+                "raw": "۱۲٬۶۰۰ تومان",
                 "is_free": false,
-                "amount": 10500,
+                "amount": 12600,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "",
                 "۱۰٬۰۰۰ تا ۱۰۰٬۰۰۰ ساعت",
-                "۱۰٬۵۰۰ تومان"
+                "۱۲٬۶۰۰ تومان"
               ]
             },
             {
@@ -2992,9 +3029,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۱۰۰٬۰۰۰ ساعت",
               "price": {
-                "raw": "۹٬۰۰۰ تومان",
+                "raw": "۱۰٬۸۰۰ تومان",
                 "is_free": false,
-                "amount": 9000,
+                "amount": 10800,
                 "currency": "IRT",
                 "note": null
               },
@@ -3002,7 +3039,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۱۰۰٬۰۰۰ ساعت",
-                "۹٬۰۰۰ تومان"
+                "۱۰٬۸۰۰ تومان"
               ]
             }
           ]
@@ -3039,17 +3076,17 @@
               "continues_previous_item": true,
               "tier": "۵۰ تا ۲۰٬۰۰۰ ساعت",
               "price": {
-                "raw": "۷۵۰ تومان",
+                "raw": "۹۰۰ تومان",
                 "is_free": false,
-                "amount": 750,
+                "amount": 900,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "",
                 "۵۰ تا ۲۰٬۰۰۰ ساعت",
-                "۷۵۰ تومان"
+                "۹۰۰ تومان"
               ]
             },
             {
@@ -3057,17 +3094,17 @@
               "continues_previous_item": true,
               "tier": "۲۰ هزار تا ۱۰۰ هزار ساعت",
               "price": {
-                "raw": "۴۲۰ تومان",
+                "raw": "۴۹۵ تومان",
                 "is_free": false,
-                "amount": 420,
+                "amount": 495,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "",
                 "۲۰ هزار تا ۱۰۰ هزار ساعت",
-                "۴۲۰ تومان"
+                "۴۹۵ تومان"
               ]
             },
             {
@@ -3075,17 +3112,17 @@
               "continues_previous_item": true,
               "tier": "۱۰۰ هزار تا ۱ میلیون ساعت",
               "price": {
-                "raw": "۳۰۰ تومان",
+                "raw": "۳۶۰ تومان",
                 "is_free": false,
-                "amount": 300,
+                "amount": 360,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "",
                 "۱۰۰ هزار تا ۱ میلیون ساعت",
-                "۳۰۰ تومان"
+                "۳۶۰ تومان"
               ]
             },
             {
@@ -3093,17 +3130,17 @@
               "continues_previous_item": true,
               "tier": "بیش از ۱ میلیون ساعت",
               "price": {
-                "raw": "۲۰۰ تومان",
+                "raw": "۲۲۵ تومان",
                 "is_free": false,
-                "amount": 200,
+                "amount": 225,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "",
                 "بیش از ۱ میلیون ساعت",
-                "۲۰۰ تومان"
+                "۲۲۵ تومان"
               ]
             }
           ]
@@ -3122,9 +3159,9 @@
               "item": "ساعت پخش زنده",
               "tier": "تا ۱۰۰ ساعت",
               "price": {
-                "raw": "۹۰٬۰۰۰ تومان",
+                "raw": "۱۰۸٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 90000,
+                "amount": 108000,
                 "currency": "IRT",
                 "note": null
               },
@@ -3132,7 +3169,7 @@
               "raw_cells": [
                 "ساعت پخش زنده",
                 "تا ۱۰۰ ساعت",
-                "۹۰٬۰۰۰ تومان"
+                "۱۰۸٬۰۰۰ تومان"
               ]
             },
             {
@@ -3140,9 +3177,9 @@
               "continues_previous_item": true,
               "tier": "۱۰۰ تا ۳۰۰ ساعت",
               "price": {
-                "raw": "۸۱٬۰۰۰ تومان",
+                "raw": "۹۷٬۲۰۰ تومان",
                 "is_free": false,
-                "amount": 81000,
+                "amount": 97200,
                 "currency": "IRT",
                 "note": null
               },
@@ -3150,7 +3187,7 @@
               "raw_cells": [
                 "",
                 "۱۰۰ تا ۳۰۰ ساعت",
-                "۸۱٬۰۰۰ تومان"
+                "۹۷٬۲۰۰ تومان"
               ]
             },
             {
@@ -3158,9 +3195,9 @@
               "continues_previous_item": true,
               "tier": "۳۰۰ تا ۵۰۰ ساعت",
               "price": {
-                "raw": "۷۲٬۰۰۰ تومان",
+                "raw": "۸۶٬۴۰۰ تومان",
                 "is_free": false,
-                "amount": 72000,
+                "amount": 86400,
                 "currency": "IRT",
                 "note": null
               },
@@ -3168,7 +3205,7 @@
               "raw_cells": [
                 "",
                 "۳۰۰ تا ۵۰۰ ساعت",
-                "۷۲٬۰۰۰ تومان"
+                "۸۶٬۴۰۰ تومان"
               ]
             },
             {
@@ -3176,9 +3213,9 @@
               "continues_previous_item": true,
               "tier": "۵۰۰ تا ۹۰۰ ساعت",
               "price": {
-                "raw": "۶۳٬۰۰۰ تومان",
+                "raw": "۷۵٬۶۰۰ تومان",
                 "is_free": false,
-                "amount": 63000,
+                "amount": 75600,
                 "currency": "IRT",
                 "note": null
               },
@@ -3186,7 +3223,7 @@
               "raw_cells": [
                 "",
                 "۵۰۰ تا ۹۰۰ ساعت",
-                "۶۳٬۰۰۰ تومان"
+                "۷۵٬۶۰۰ تومان"
               ]
             },
             {
@@ -3194,9 +3231,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۹۰۰ ساعت",
               "price": {
-                "raw": "۴۵,۰۰۰ تومان",
+                "raw": "۵۴٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 45000,
+                "amount": 54000,
                 "currency": "IRT",
                 "note": null
               },
@@ -3204,7 +3241,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۹۰۰ ساعت",
-                "۴۵,۰۰۰ تومان"
+                "۵۴٬۰۰۰ تومان"
               ]
             }
           ]
@@ -3241,9 +3278,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۶۰۰ دقیقه",
               "price": {
-                "raw": "۱٬۴۱۰ تومان",
+                "raw": "۱٬۷۰۰ تومان",
                 "is_free": false,
-                "amount": 1410,
+                "amount": 1700,
                 "currency": "IRT",
                 "note": null
               },
@@ -3251,7 +3288,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۶۰۰ دقیقه",
-                "۱٬۴۱۰ تومان"
+                "۱٬۷۰۰ تومان"
               ]
             },
             {
@@ -3276,9 +3313,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۱۸۰۰ دقیقه",
               "price": {
-                "raw": "۱٬۴۱۰ تومان",
+                "raw": "۱٬۷۰۰ تومان",
                 "is_free": false,
-                "amount": 1410,
+                "amount": 1700,
                 "currency": "IRT",
                 "note": null
               },
@@ -3286,7 +3323,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۱۸۰۰ دقیقه",
-                "۱٬۴۱۰ تومان"
+                "۱٬۷۰۰ تومان"
               ]
             },
             {
@@ -3311,9 +3348,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۱۸٬۰۰۰ دقیقه",
               "price": {
-                "raw": "۱٬۴۱۰ تومان",
+                "raw": "۱٬۷۰۰ تومان",
                 "is_free": false,
-                "amount": 1410,
+                "amount": 1700,
                 "currency": "IRT",
                 "note": null
               },
@@ -3321,7 +3358,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۱۸٬۰۰۰ دقیقه",
-                "۱٬۴۱۰ تومان"
+                "۱٬۷۰۰ تومان"
               ]
             },
             {
@@ -3365,61 +3402,61 @@
             {
               "item": "Starter",
               "price": {
-                "raw": "۲۲۰,۵۰۰ تومان",
+                "raw": "۲۶۴٬۶۰۰ تومان",
                 "is_free": false,
-                "amount": 220500,
+                "amount": 264600,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Starter",
-                "۲۲۰,۵۰۰ تومان"
+                "۲۶۴٬۶۰۰ تومان"
               ]
             },
             {
               "item": "Basic",
               "price": {
-                "raw": "۴۸۳,۰۰۰ تومان",
+                "raw": "۵۷۹٬۶۰۰ تومان",
                 "is_free": false,
-                "amount": 483000,
+                "amount": 579600,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Basic",
-                "۴۸۳,۰۰۰ تومان"
+                "۵۷۹٬۶۰۰ تومان"
               ]
             },
             {
               "item": "Standard",
               "price": {
-                "raw": "۶۸۲,۵۰۰ تومان",
+                "raw": "۸۱۹٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 682500,
+                "amount": 819000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Standard",
-                "۶۸۲,۵۰۰ تومان"
+                "۸۱۹٬۰۰۰ تومان"
               ]
             },
             {
               "item": "Premium",
               "price": {
-                "raw": "۱,۰۷۷,۳۰۰ تومان",
+                "raw": "۱٬۲۹۲٬۷۶۰ تومان",
                 "is_free": false,
-                "amount": 1077300,
+                "amount": 1292760,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Premium",
-                "۱,۰۷۷,۳۰۰ تومان"
+                "۱٬۲۹۲٬۷۶۰ تومان"
               ]
             }
           ]
@@ -3436,61 +3473,61 @@
             {
               "item": "Starter",
               "price": {
-                "raw": "۱۷۱,۷۰۰ تومان",
+                "raw": "۲۰۶٬۰۱۰ تومان",
                 "is_free": false,
-                "amount": 171700,
+                "amount": 206010,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Starter",
-                "۱۷۱,۷۰۰ تومان"
+                "۲۰۶٬۰۱۰ تومان"
               ]
             },
             {
               "item": "Basic",
               "price": {
-                "raw": "۳۷۶,۱۰۰ تومان",
+                "raw": "۴۵۱٬۲۶۰ تومان",
                 "is_free": false,
-                "amount": 376100,
+                "amount": 451260,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Basic",
-                "۳۷۶,۱۰۰ تومان"
+                "۴۵۱٬۲۶۰ تومان"
               ]
             },
             {
               "item": "Standard",
               "price": {
-                "raw": "۵۳۱,۴۰۰ تومان",
+                "raw": "۶۳۷٬۶۵۰ تومان",
                 "is_free": false,
-                "amount": 531400,
+                "amount": 637650,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Standard",
-                "۵۳۱,۴۰۰ تومان"
+                "۶۳۷٬۶۵۰ تومان"
               ]
             },
             {
               "item": "Premium",
               "price": {
-                "raw": "۸۳۸,۸۰۰ تومان",
+                "raw": "۱٬۰۰۶٬۵۱۰ تومان",
                 "is_free": false,
-                "amount": 838800,
+                "amount": 1006510,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "Premium",
-                "۸۳۸,۸۰۰ تومان"
+                "۱٬۰۰۶٬۵۱۰ تومان"
               ]
             }
           ]
@@ -3507,46 +3544,46 @@
             {
               "item": "دیسک HDD",
               "price": {
-                "raw": "۱۴٬۴۰۰ تومان",
+                "raw": "۱۷٬۲۸۰ تومان",
                 "is_free": false,
-                "amount": 14400,
+                "amount": 17280,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "دیسک HDD",
-                "۱۴٬۴۰۰ تومان"
+                "۱۷٬۲۸۰ تومان"
               ]
             },
             {
               "item": "دیسک SSD",
               "price": {
-                "raw": "۳۰٬۰۰۰ تومان",
+                "raw": "۳۶٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 30000,
+                "amount": 36000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "دیسک SSD",
-                "۳۰٬۰۰۰ تومان"
+                "۳۶٬۰۰۰ تومان"
               ]
             },
             {
               "item": "دیسک لوکال",
               "price": {
-                "raw": "۴۲,۰۰۰ تومان",
+                "raw": "۵۰٬۴۰۰ تومان",
                 "is_free": false,
-                "amount": 42000,
+                "amount": 50400,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "دیسک لوکال",
-                "۴۲,۰۰۰ تومان"
+                "۵۰٬۴۰۰ تومان"
               ]
             }
           ]
@@ -3563,16 +3600,16 @@
             {
               "item": "IPv4",
               "price": {
-                "raw": "۱۹۵,۰۰۰ تومان",
+                "raw": "۲۳۴٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 195000,
+                "amount": 234000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "IPv4",
-                "۱۹۵,۰۰۰ تومان"
+                "۲۳۴٬۰۰۰ تومان"
               ]
             }
           ]
@@ -3615,16 +3652,16 @@
             {
               "item": "بکاپ",
               "price": {
-                "raw": "رایگان تا ۷ روز",
+                "raw": "رایگان",
                 "is_free": true,
                 "amount": 0,
                 "currency": null,
-                "note": "تا روز"
+                "note": "تا ۷ روز"
               },
               "price_reduced": false,
               "raw_cells": [
                 "بکاپ",
-                "رایگان تا ۷ روز"
+                "رایگان"
               ]
             }
           ]
@@ -3671,9 +3708,9 @@
               "continues_previous_item": true,
               "tier": "۱۰۰,۰۰۰ تا ۱۰۰ میلیون درخواست",
               "price": {
-                "raw": "۶۰٬۰۰۰ تومان",
+                "raw": "۶۳٬۱۸۰ تومان",
                 "is_free": false,
-                "amount": 60000,
+                "amount": 63180,
                 "currency": "IRT",
                 "note": null
               },
@@ -3681,7 +3718,7 @@
               "raw_cells": [
                 "",
                 "۱۰۰,۰۰۰ تا ۱۰۰ میلیون درخواست",
-                "۶۰٬۰۰۰ تومان"
+                "۶۳٬۱۸۰ تومان"
               ]
             },
             {
@@ -3689,9 +3726,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۱۰۰ میلیون درخواست",
               "price": {
-                "raw": "۵۰٬۰۰۰ تومان",
+                "raw": "۵۳٬۷۱۰ تومان",
                 "is_free": false,
-                "amount": 50000,
+                "amount": 53710,
                 "currency": "IRT",
                 "note": null
               },
@@ -3699,7 +3736,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۱۰۰ میلیون درخواست",
-                "۵۰٬۰۰۰ تومان"
+                "۵۳٬۷۱۰ تومان"
               ]
             }
           ]
@@ -3718,9 +3755,9 @@
               "item": "اتاق انتظار",
               "tier": "تا ۷۲ ساعت",
               "price": {
-                "raw": "۹۰۰٬۰۰۰ تومان",
+                "raw": "۹۵۴٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 900000,
+                "amount": 954000,
                 "currency": "IRT",
                 "note": null
               },
@@ -3728,7 +3765,7 @@
               "raw_cells": [
                 "اتاق انتظار",
                 "تا ۷۲ ساعت",
-                "۹۰۰٬۰۰۰ تومان"
+                "۹۵۴٬۰۰۰ تومان"
               ]
             },
             {
@@ -3736,9 +3773,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۷۲ ساعت",
               "price": {
-                "raw": "۷۰۰٬۰۰۰ تومان",
+                "raw": "۷۶۳٬۲۰۰ تومان",
                 "is_free": false,
-                "amount": 700000,
+                "amount": 763200,
                 "currency": "IRT",
                 "note": null
               },
@@ -3746,7 +3783,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۷۲ ساعت",
-                "۷۰۰٬۰۰۰ تومان"
+                "۷۶۳٬۲۰۰ تومان"
               ]
             }
           ]
@@ -4071,9 +4108,9 @@
               "continues_previous_item": true,
               "tier": "از ۲ گیگابایت تا ۵ ترابایت",
               "price": {
-                "raw": "۷۵٬۰۰۰ تومان",
+                "raw": "۹۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 75000,
+                "amount": 90000,
                 "currency": "IRT",
                 "note": null
               },
@@ -4081,7 +4118,7 @@
               "raw_cells": [
                 "",
                 "از ۲ گیگابایت تا ۵ ترابایت",
-                "۷۵٬۰۰۰ تومان"
+                "۹۰٬۰۰۰ تومان"
               ]
             },
             {
@@ -4089,9 +4126,9 @@
               "continues_previous_item": true,
               "tier": "از ۵ تا ۵۰ ترابایت",
               "price": {
-                "raw": "۶۰٬۰۰۰ تومان",
+                "raw": "۷۲٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 60000,
+                "amount": 72000,
                 "currency": "IRT",
                 "note": null
               },
@@ -4099,7 +4136,7 @@
               "raw_cells": [
                 "",
                 "از ۵ تا ۵۰ ترابایت",
-                "۶۰٬۰۰۰ تومان"
+                "۷۲٬۰۰۰ تومان"
               ]
             },
             {
@@ -4107,9 +4144,9 @@
               "continues_previous_item": true,
               "tier": "از ۵۰ تا ۵۰۰ ترابایت",
               "price": {
-                "raw": "۵۰٬۰۰۰ تومان",
+                "raw": "۶۰٬۳۰۰ تومان",
                 "is_free": false,
-                "amount": 50000,
+                "amount": 60300,
                 "currency": "IRT",
                 "note": null
               },
@@ -4117,7 +4154,7 @@
               "raw_cells": [
                 "",
                 "از ۵۰ تا ۵۰۰ ترابایت",
-                "۵۰٬۰۰۰ تومان"
+                "۶۰٬۳۰۰ تومان"
               ]
             },
             {
@@ -4125,9 +4162,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۵۰۰ ترابایت",
               "price": {
-                "raw": "۴۵٬۰۰۰ تومان",
+                "raw": "۵۴٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 45000,
+                "amount": 54000,
                 "currency": "IRT",
                 "note": null
               },
@@ -4135,7 +4172,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۵۰۰ ترابایت",
-                "۴۵٬۰۰۰ تومان"
+                "۵۴٬۰۰۰ تومان"
               ]
             },
             {
@@ -4160,9 +4197,9 @@
               "continues_previous_item": true,
               "tier": "از ۲ گیگابایت تا ۵ ترابایت",
               "price": {
-                "raw": "۳٬۰۰۰ تومان",
+                "raw": "۳٬۶۰۰ تومان",
                 "is_free": false,
-                "amount": 3000,
+                "amount": 3600,
                 "currency": "IRT",
                 "note": null
               },
@@ -4170,7 +4207,7 @@
               "raw_cells": [
                 "",
                 "از ۲ گیگابایت تا ۵ ترابایت",
-                "۳٬۰۰۰ تومان"
+                "۳٬۶۰۰ تومان"
               ]
             },
             {
@@ -4178,9 +4215,9 @@
               "continues_previous_item": true,
               "tier": "از ۵ تا ۵۰ ترابایت",
               "price": {
-                "raw": "۲٬۷۰۰ تومان",
+                "raw": "۳٬۲۴۰ تومان",
                 "is_free": false,
-                "amount": 2700,
+                "amount": 3240,
                 "currency": "IRT",
                 "note": null
               },
@@ -4188,7 +4225,7 @@
               "raw_cells": [
                 "",
                 "از ۵ تا ۵۰ ترابایت",
-                "۲٬۷۰۰ تومان"
+                "۳٬۲۴۰ تومان"
               ]
             },
             {
@@ -4196,9 +4233,9 @@
               "continues_previous_item": true,
               "tier": "از ۵۰ تا ۵۰۰ ترابایت",
               "price": {
-                "raw": "۲٬۴۰۰ تومان",
+                "raw": "۲٬۸۸۰ تومان",
                 "is_free": false,
-                "amount": 2400,
+                "amount": 2880,
                 "currency": "IRT",
                 "note": null
               },
@@ -4206,7 +4243,7 @@
               "raw_cells": [
                 "",
                 "از ۵۰ تا ۵۰۰ ترابایت",
-                "۲٬۴۰۰ تومان"
+                "۲٬۸۸۰ تومان"
               ]
             },
             {
@@ -4214,9 +4251,9 @@
               "continues_previous_item": true,
               "tier": "بیش از ۵۰۰ ترابایت",
               "price": {
-                "raw": "۲٬۱۰۰ تومان",
+                "raw": "۲٬۵۲۰ تومان",
                 "is_free": false,
-                "amount": 2100,
+                "amount": 2520,
                 "currency": "IRT",
                 "note": null
               },
@@ -4224,7 +4261,7 @@
               "raw_cells": [
                 "",
                 "بیش از ۵۰۰ ترابایت",
-                "۲٬۱۰۰ تومان"
+                "۲٬۵۲۰ تومان"
               ]
             }
           ]
@@ -4251,16 +4288,16 @@
             {
               "item": "CPU",
               "price": {
-                "raw": "۵۴۶,۰۰۰ تومان",
+                "raw": "۶۵۵٬۲۰۰ تومان",
                 "is_free": false,
-                "amount": 546000,
+                "amount": 655200,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "CPU",
-                "۵۴۶,۰۰۰ تومان"
+                "۶۵۵٬۲۰۰ تومان"
               ]
             }
           ]
@@ -4277,16 +4314,16 @@
             {
               "item": "RAM",
               "price": {
-                "raw": "۴۲۵,۱۰۰ تومان",
+                "raw": "۵۱۰٬۱۲۰ تومان",
                 "is_free": false,
-                "amount": 425100,
+                "amount": 510120,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "RAM",
-                "۴۲۵,۱۰۰ تومان"
+                "۵۱۰٬۱۲۰ تومان"
               ]
             }
           ]
@@ -4303,61 +4340,61 @@
             {
               "item": "دیسک SSD",
               "price": {
-                "raw": "۳۰,۰۰۰ تومان",
+                "raw": "۳۶٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 30000,
+                "amount": 36000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "دیسک SSD",
-                "۳۰,۰۰۰ تومان"
+                "۳۶٬۰۰۰ تومان"
               ]
             },
             {
               "item": "حافظه موقت (Ephemeral)",
               "price": {
-                "raw": "۳۰,۰۰۰ تومان",
+                "raw": "۳۶٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 30000,
+                "amount": 36000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "حافظه موقت (Ephemeral)",
-                "۳۰,۰۰۰ تومان"
+                "۳۶٬۰۰۰ تومان"
               ]
             },
             {
               "item": "بکاپ",
               "price": {
-                "raw": "۲۸٬۸۰۰ تومان",
+                "raw": "۳۴٬۵۶۰ تومان",
                 "is_free": false,
-                "amount": 28800,
+                "amount": 34560,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "بکاپ",
-                "۲۸٬۸۰۰ تومان"
+                "۳۴٬۵۶۰ تومان"
               ]
             },
             {
               "item": "اسنپ‌شات",
               "price": {
-                "raw": "۳۰,۰۰۰ تومان",
+                "raw": "۳۶٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 30000,
+                "amount": 36000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "اسنپ‌شات",
-                "۳۰,۰۰۰ تومان"
+                "۳۶٬۰۰۰ تومان"
               ]
             }
           ]
@@ -4374,31 +4411,31 @@
             {
               "item": "به‌ازای IPv4 اول",
               "price": {
-                "raw": "۳۹۰,۰۰۰ تومان",
+                "raw": "۴۶۸٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 390000,
+                "amount": 468000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "به‌ازای IPv4 اول",
-                "۳۹۰,۰۰۰ تومان"
+                "۴۶۸٬۰۰۰ تومان"
               ]
             },
             {
               "item": "به‌ازای IPv4 بیش‌تر",
               "price": {
-                "raw": "۷۸۰,۰۰۰ تومان",
+                "raw": "۹۳۶٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 780000,
+                "amount": 936000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "به‌ازای IPv4 بیش‌تر",
-                "۷۸۰,۰۰۰ تومان"
+                "۹۳۶٬۰۰۰ تومان"
               ]
             }
           ]
@@ -4551,61 +4588,61 @@
             {
               "item": "رشد",
               "price": {
-                "raw": "۹۰۰٬۰۰۰ تومان",
+                "raw": "۱٬۰۸۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 900000,
+                "amount": 1080000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "رشد",
-                "۹۰۰٬۰۰۰ تومان"
+                "۱٬۰۸۰٬۰۰۰ تومان"
               ]
             },
             {
               "item": "حرفه‌ای",
               "price": {
-                "raw": "۱۵٬۰۰۰٬۰۰۰ تومان",
+                "raw": "۱۸٬۰۰۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 15000000,
+                "amount": 18000000,
                 "currency": "IRT",
                 "note": null
               },
-              "price_reduced": true,
+              "price_reduced": false,
               "raw_cells": [
                 "حرفه‌ای",
-                "۱۵٬۰۰۰٬۰۰۰ تومان"
+                "۱۸٬۰۰۰٬۰۰۰ تومان"
               ]
             },
             {
               "item": "سازمانی",
               "price": {
-                "raw": "۴۹٬۵۰۰٬۰۰۰ تومان",
+                "raw": "۵۹٬۴۰۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 49500000,
+                "amount": 59400000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "سازمانی",
-                "۴۹٬۵۰۰٬۰۰۰ تومان"
+                "۵۹٬۴۰۰٬۰۰۰ تومان"
               ]
             },
             {
               "item": "حیاتی",
               "price": {
-                "raw": "۹۹٬۰۰۰٬۰۰۰ تومان",
+                "raw": "۱۱۸٬۸۰۰٬۰۰۰ تومان",
                 "is_free": false,
-                "amount": 99000000,
+                "amount": 118800000,
                 "currency": "IRT",
                 "note": null
               },
               "price_reduced": false,
               "raw_cells": [
                 "حیاتی",
-                "۹۹٬۰۰۰٬۰۰۰ تومان"
+                "۱۱۸٬۸۰۰٬۰۰۰ تومان"
               ]
             }
           ]

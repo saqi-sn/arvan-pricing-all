@@ -137,27 +137,43 @@ def cell_children(row):
     return [c for c in element_children(row) if c.name == "div"]
 
 
+def is_tooltip(tag) -> bool:
+    """A hover tooltip / badge trigger, whose text is not part of the cell.
+
+    The page has used both <span> and <div> for these, so match on the class
+    rather than the tag name.
+    """
+    return "cursor-pointer" in " ".join(tag.get("class") or [])
+
+
 def has_reduction_badge(row) -> bool:
     return any(
         "کاهش‌یافته" in t.get_text()
-        for t in row.find_all("span")
-        if "cursor-pointer" in " ".join(t.get("class") or [])
+        for t in row.find_all(True)
+        if is_tooltip(t)
     )
 
 
 def cell_text(cell) -> str:
     """Text of a cell with tooltip triggers removed.
 
-    The price cell of a reduced row repeats the badge inside itself (a
-    mobile-only variant), which would otherwise land in the price string.
+    Tooltips sit inside the cell they annotate, so their hidden text would
+    otherwise be concatenated into the item name or the price string.
     """
     clone = copy.copy(cell)
-    for trigger in clone.find_all("span"):
-        # extract(), not decompose(): a decomposed tag's nested spans are left
-        # with attrs=None and blow up later in this same loop.
-        if "cursor-pointer" in " ".join(trigger.get("class") or []):
+    for trigger in clone.find_all(True):
+        # extract(), not decompose(): a decomposed tag's nested elements are
+        # left with attrs=None and blow up later in this same loop.
+        if is_tooltip(trigger):
             trigger.extract()
     return norm(clone.get_text())
+
+
+def cell_tooltip(cell) -> str | None:
+    """The tooltip text attached to a cell, if any."""
+    tips = [norm(t.get_text()) for t in cell.find_all(True) if is_tooltip(t)]
+    tips = [t for t in tips if t]
+    return " / ".join(tips) if tips else None
 
 
 def parse_table(card, section) -> dict | None:
@@ -178,7 +194,8 @@ def parse_table(card, section) -> dict | None:
     out_rows = []
     last_item = None
     for row in rows[1:]:
-        cells = [cell_text(c) for c in cell_children(row)]
+        cell_els = cell_children(row)
+        cells = [cell_text(c) for c in cell_els]
         if not cells:
             continue
 
@@ -197,7 +214,18 @@ def parse_table(card, section) -> dict | None:
         if tier_idx is not None and tier_idx < len(cells):
             tier = cells[tier_idx]
             entry["tier"] = tier if tier and tier != "-" else None
+        item_note = cell_tooltip(cell_els[0]) if cell_els else None
+        if item_note:
+            entry["item_note"] = item_note
+
         entry["price"] = parse_price(cells[price_idx] if price_idx < len(cells) else "")
+        # A tooltip on the price cell qualifies the amount, e.g. «به‌ازای هر ابرک»
+        # (per instance) or «تا ۷ روز» (up to 7 days).
+        if price_idx < len(cell_els):
+            price_note = cell_tooltip(cell_els[price_idx])
+            if price_note:
+                entry["price"]["note"] = price_note
+
         # The page flags rows whose price has come down with a tooltip badge.
         entry["price_reduced"] = has_reduction_badge(row)
         entry["raw_cells"] = cells
@@ -236,10 +264,14 @@ def scrape(html: str) -> dict:
 
     products = []
     for section in sections:
+        # The product name is a plain styled <div>, not a heading element, and
+        # it is always the section's first child. Don't fall back to slicing
+        # section text on newlines - that depends on the page's indentation.
         heading = section.find(["h1", "h2", "h3", "h4"])
-        title = norm(heading.get_text()) if heading else norm(
-            section.get_text().strip().split("\n")[0]
-        )
+        if heading is None:
+            kids = element_children(section)
+            heading = kids[0] if kids else None
+        title = norm(heading.get_text()) if heading is not None else ""
         slug = SLUGS.get(title)
 
         cards = [t for t in section.find_all("div") if is_card(t)]
@@ -270,24 +302,24 @@ def scrape(html: str) -> dict:
             "notes": collect_notes(section, cards, title),
         })
 
-    version_links = []
-    seen = set()
+    # The price-archive selector. The same URLs also appear as nav links, so
+    # prefer a label from the selector itself («قیمت فعلی») over a nav label.
+    by_url: dict[str, str] = {}
     for a in soup.find_all("a", href=True):
         href = a["href"]
         if "/fa/pricing/all" not in href:
             continue
         url = href if href.startswith("http") else "https://www.arvancloud.ir" + href
-        if url in seen:
-            continue
         label = norm(a.get_text())
         if not label:
             continue
-        seen.add(url)
-        version_links.append({
-            "label_fa": label,
-            "url": url,
-            "is_current": "version=" not in url,
-        })
+        if url not in by_url or "فعلی" in label:
+            by_url[url] = label
+
+    version_links = [
+        {"label_fa": label, "url": url, "is_current": "version=" not in url}
+        for url, label in by_url.items()
+    ]
 
     return {
         "source": {
